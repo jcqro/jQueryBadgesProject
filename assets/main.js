@@ -12,7 +12,7 @@ $(function() {
   function addCourses(courses){
     var $badges = $('#badges');
     courses.forEach(function (course){
-      
+
         var $course = $('<div />',{
           class: 'course',
         }).appendTo($badges);
@@ -27,7 +27,7 @@ $(function() {
           href:course.url,
           target: '_blank',
           'class':'btn btn-primary',
-          text: 'See Course'
+          text: 'Ver Curso'
         }).appendTo($course);
     })
   }
